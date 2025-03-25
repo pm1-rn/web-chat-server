@@ -1,0 +1,38 @@
+{
+  "name": "web-chat-server",
+  "version": "1.0.0",
+  "description": "api-service for WebChat",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pm1-rn/web-chat-server.git"
+  },
+  "keywords": [
+    "server",
+    "api",
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "PM1-RN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pm1-rn/web-chat-server/issues"
+  },
+  "homepage": "https://github.com/pm1-rn/web-chat-server#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.6.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.2",
+    "nodemon": "^3.1.9",
+    "socket.io": "^4.8.1"
+  }
+}
