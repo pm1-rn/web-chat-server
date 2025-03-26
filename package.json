@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "api-service for WebChat",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "test"
   },
@@ -31,6 +32,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.15.0",
     "mongoose": "^8.12.2",
     "nodemon": "^3.1.9",
     "socket.io": "^4.8.1"
